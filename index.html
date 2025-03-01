@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo-64.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obito - Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/output.css" />
+  </head>
+  <body class="font-sans bg-netral text-black-font">
+    <header class="flex justify-between items-center px-14 py-5 bg-white border-b border-gray">
+      <nav class="flex gap-x-8">
+        <div class="flex items-center gap-x-2">
+          <img src="./src/assets/logo-64.svg" alt="" />
+          <span class="font-extrabold text-2xl">Obito</span>
+        </div>
+        <ul class="flex items-center gap-x-8">
+          <li><a href="" class="hover:font-semibold">Home</a></li>
+          <li><a href="" class="hover:font-semibold">Pricing</a></li>
+          <li><a href="" class="hover:font-semibold">Features</a></li>
+          <li><a href="" class="hover:font-semibold">Testimonials</a></li>
+        </ul>
+      </nav>
+      <div class="flex items-center gap-x-3">
+        <img src="./src/assets/device-message.svg" alt="device message logo" />
+        <div class="w-px h-[50px] bg-gray"></div>
+        <a
+          href="#"
+          class="px-5 py-3 font-semibold border-gray border rounded-3xl"
+          >Sign Up</a
+        >
+        <a
+          href="#"
+          class="px-5 py-3 font-semibold text-white bg-primary rounded-3xl"
+          >Your Account</a
+        >
+      </div>
+    </header>
+    <main class="grid grid-cols-2">
+      <section class="flex justify-center items-center">
+        <div class="max-w-[510px] w-full border bg-white border-gray rounded-xl p-5">
+          <h2 class="text-[22px] font-extrabold mb-6">Upgrade Your Skills</h2>
+          <form>
+            <div class="cursor-pointer text-center w-[90px] h-[90px] flex justify-center items-center mb-4 font-semibold rounded-full text-sm border border-gray">
+              <span>Add<br>Photo</span>
+            </div>
+            <div class="mb-4">
+              <label class="block text-sm font-regular mb-2" for="name"
+                >Complete Name</label
+              >
+              <div class="flex items-center gap-2 w-full py-3.5 px-5 border border-gray rounded-3xl focus-within:border-[#2F6A62]">
+                <img src="./src/assets/profile.svg" alt="">
+                <input
+                  class="font-semibold placeholder:font-normal w-full outline-none"
+                  type="text"
+                  id="name"
+                  placeholder="Type your valid name"
+                />
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="block text-sm font-regular mb-2" for="occupation"
+                >Occupation</label
+              >
+              <div class="flex items-center gap-2 w-full py-3.5 px-5 border border-gray rounded-3xl focus-within:border-[#2F6A62]">
+                <img src="./src/assets/briefcase.svg" alt="">
+                <input
+                  class="font-semibold placeholder:font-normal w-full outline-none"
+                  type="text"
+                  id="occupation"
+                  placeholder="Programmer"
+                />
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="block text-sm font-regular mb-2" for="email"
+                >Email Address</label
+              >
+              <div class="flex items-center gap-2 w-full py-3.5 px-5 border border-gray rounded-3xl focus-within:border-[#2F6A62]">
+                <img src="./src/assets/device-message.svg" alt="">
+                <input
+                  class="font-semibold placeholder:font-normal w-full outline-none"
+                  type="email"
+                  id="email"
+                  placeholder="Type your valid email address"
+                />
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="block text-sm font-regular mb-2" for="password"
+                >Password</label
+              >
+              <div class="flex items-center gap-2 w-full py-3.5 px-5 border border-gray rounded-3xl focus-within:border-[#2F6A62]">
+                <img src="./src/assets/shield-security.svg" alt="">
+                <input
+                  class="font-semibold placeholder:font-normal w-full outline-none"
+                  type="password"
+                  id="password"
+                  placeholder="Type your valid email address"
+                />
+              </div>
+            </div>
+            <div class="mb-6">
+              <label
+                class="block text-sm font-regular mb-2"
+                for="confirm-password"
+                >Confirm Password</label
+              >
+              <div class="flex items-center gap-2 w-full py-3.5 px-5 border border-gray rounded-3xl focus-within:border-[#2F6A62]">
+                <img src="./src/assets/shield-security.svg" alt="">
+                <input
+                  class="font-semibold placeholder:font-normal w-full outline-none"
+                  type="password"
+                  id="password"
+                  placeholder="Type your valid email address"
+                />
+              </div>
+            </div>
+            <button
+              class="w-full bg-primary text-white py-3.5 px-5 rounded-3xl font-semibold"
+              type="submit"
+            >
+              Create My Account
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="relative">
+        <img
+          src="./src/assets/images/banner.jpg"
+          alt="People coding"
+          class="w-full max-w-[645px] mx-auto h-auto object-cover"
+        />
+      </section>
+    </main>
+  </body>
+</html>
